@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "study_id": "thai-game-synthetic-v1",
+  "sources": [
+    {
+      "id": "th-guide-01",
+      "url": "https://example.invalid/synthetic/th-guide",
+      "region": "TH-synthetic",
+      "version": "fixture-v1",
+      "text": "ข้อมูลสมมติสำหรับทดสอบเท่านั้น ไม่ใช่กติกาเกมจริง\nการสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ\nไอเทมซ่อมแซมมีรหัส DEMO-001"
+    },
+    {
+      "id": "jp-guide-01",
+      "url": "https://example.invalid/synthetic/jp-guide",
+      "region": "JP-synthetic",
+      "version": "fixture-v1",
+      "text": "Synthetic Japanese-region placeholder. No numeric pet growth rates are provided."
+    }
+  ],
+  "questions": [
+    {"id": "guild-cost", "question": "ในข้อมูลทดสอบ การสร้างกิลด์ใช้เหรียญเท่าใด", "source_ids": ["th-guide-01"]},
+    {"id": "pet-rate", "question": "อัตราเพิ่มระดับสัตว์เลี้ยงเท่าใด", "source_ids": ["jp-guide-01"]}
+  ]
+}

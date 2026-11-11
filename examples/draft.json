@@ -1,0 +1,6 @@
+{
+  "rows": [
+    {"question_id": "guild-cost", "unknown": false, "claim": "การสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ", "source_id": "th-guide-01", "excerpt": "การสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ"},
+    {"question_id": "pet-rate", "unknown": true, "claim": "NR", "source_id": null, "excerpt": null}
+  ]
+}

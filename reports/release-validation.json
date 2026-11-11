@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-research-agent-kit",
+  "release": "0.1.0",
+  "status": "passed",
+  "cloud_test_count": 49,
+  "browser_qa": "not_completed_cloud_browser_runtime_unavailable",
+  "checks": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.64
+    },
+    {
+      "command": [
+        "node",
+        "--test",
+        "--test-reporter=tap",
+        "tests/web.test.cjs"
+      ],
+      "exit_code": 0,
+      "seconds": 0.21
+    }
+  ],
+  "source_sha256": {
+    ".github/workflows/verify.yml": "a9802029f93ba4668b62131a84af2c60dc9b14eac9abe33d3141167c6c2ff534",
+    ".gitignore": "81f2d4e3695b39e9ede730dd9df04d2a9dfda0142a7adef5c8f47906761b9b53",
+    "LICENSE": "2d217bec5bcc111f336e3d3429550f9efdcd40fa06906a81c991615aed24dd8a",
+    "README.md": "64989a408796e6a04ec3152bac521856fa2ff8397ef073c30fdad5a497718d45",
+    "README.th.md": "b6099b2da6b3c261538b64e23f4c69730043c40cfb9f3d27d658a1aa629697c9",
+    "SECURITY.md": "4eaaaf75b65f2770efa0e2b89ab3508f93d7a14d3e49943d77fa36f73f04f6de",
+    "THIRD_PARTY_NOTICES.md": "58e2e540298493f98a7c8c86c408c7f35ab451440b0256bc83d92faab54cb3f7",
+    "docs/BROWSER_QA.md": "20a67c95f8f8e3f3f39d6ece731d8e41aa6e67ab54d47c59cf191018badeb2aa",
+    "docs/DEVELOPMENT.md": "8f9878a01f5c3d9250f46d665b28461c21f093fc4d68fcc96e4ceea1e9b757c3",
+    "docs/WEB_VIEWER.md": "675ac076031f2ebf1ab556154b3a7f27da3bde1203245850262e185edd8ffc91",
+    "docs/cover.svg": "f8c17fcdce9eb50a5ad8b09a0aa7971070f41422f61e6b7afab6df0cae49ef93",
+    "examples/budget.json": "d710d5a1692a44d75fba33b17bbb91657ccc782a57dd8a81935771cac33ddfb3",
+    "examples/draft.json": "01c8b14c519538b4ecf4b9185699622c895c2c1795fe90086b9f63fb370341c5",
+    "examples/ledger.jsonl": "fdb8350f22368d914f33c50cdc59a749c4f1783256bf7b9bfa4ba804cd6e0f47",
+    "examples/report.json": "c370a2cdd425b73e27a27eb822dee32f48005896d5f6916af75be7a2a1e951b5",
+    "examples/study.json": "164f4ca15e35f80e8235a8b8b0a0444ab9f2add75c162cb7ed08e93069f2a4cb",
+    "examples/thai_eval_candidates.json": "5f2f43b1351908f2c13c35d2bd61b03cfe35a49d9d803db7b32de8a77e1ff643",
+    "examples/thai_eval_contract_dataset.json": "2c24ac3e6ff87d60bf9b06c08ad262c1c9d85131eaca7837edcd242dde932795",
+    "pyproject.toml": "a59d4f64f0fbf938ca8fdb1fdb94009eccc51ac5fefe6b183287b0857bce7e01",
+    "requirements.lock": "5a4a5dcbe0d81bd6992f47363a00329e7d277321f834c39ddb050639243eaeab",
+    "scripts/validate.py": "77f023e2ebbdd3e86bbcebcc5308c4edb6667dbcf7248d6bd67a394a6e77c081",
+    "src/sandworm_research_agent/__init__.py": "330efdc76010d52dfa2281528c9b235acdc6ededd2691bf887703e96df274973",
+    "src/sandworm_research_agent/cli.py": "ad2884ee1e9db53fb40d189d9743087ba6c199cdff5ca48ed032bb7cef9b980d",
+    "src/sandworm_research_agent/core.py": "a120cf46f38bba09a437932b89d82b479623c9f861f6a8192c8fdd39114ba576",
+    "src/sandworm_research_agent/runner.py": "aff78350de894e35a1776aceeb5124368e2b0a24e2124418505cbf7d6dd1b181",
+    "tests/test_workflow.py": "8ea7e485eaefa52bb3e22bba76ea4dabe41fab53b96e0bc52908803beaa7a364",
+    "tests/web.test.cjs": "4dd1a5472ee0a89fc5f48fde0e6cf69a6ffb7a67ba7418d7696f1f0dffb5148f",
+    "web/_headers": "17c3b142c0879287e6ee2170c9323a32094953821992dfa1487516892d874f56",
+    "web/app.js": "335971057a297efb7a7dd4466eb11787db32d11a05d271b1cd9ae9cf84d0e11d",
+    "web/demo.json": "9d2076675af761d4d593ed2e2253b08995891c584887f1aead54025a85859504",
+    "web/fonts/Anuphan-OFL.txt": "cbc57ac0dddda1b70f246a16358fc3c2a32628a23a6d10ef64f746141d3fb159",
+    "web/fonts/Chakra-Petch-OFL.txt": "13831d02389d917d22fcfa6c79f98f8acbf61d230add0e73a4d4dc5f3bfb9e56",
+    "web/fonts/JetBrains-Mono-OFL.txt": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+    "web/index.html": "12f0ec5e8653440b0b86ffec72951b7d37d9918b7f8fef2ae9fa07d4fd1fff76",
+    "web/mark.svg": "ee731288307e122e75090d2b39fd735667292e8b069b430b8d760a2a3c3cd5ac",
+    "web/network.svg": "31596a6bbc4dea95c4abc8edd7b98bd9f00bad7ef797681de1b0574cb80f0e38",
+    "web/report-core.js": "7ee673ea5f6354fb86971883b22c73bb8baaba4a3db60ab273685f458db4c894",
+    "web/styles.css": "8924419cecaf69c9c39a29955a126f6773e6e33cff92849f525fbf6b8bdd151a"
+  },
+  "scope": "Exact source and synthetic fixtures; upstream engine proof and unit counts in validation/smoke reports. No hosted GitHub CI success is asserted."
+}

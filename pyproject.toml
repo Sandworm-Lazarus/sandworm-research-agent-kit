@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sandworm-research-agent-kit"
+version = "0.1.0"
+description = "Evidence-bound Thai research workflows using Pydantic AI"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["pydantic-ai-slim[openai]==2.67.0"]
+
+[project.scripts]
+sandworm-research = "sandworm_research_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

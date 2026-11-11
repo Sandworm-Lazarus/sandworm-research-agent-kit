@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "research-candidate",
+      "outputs": [
+        {
+          "caseId": "guild-cost",
+          "text": "การสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ",
+          "citations": [
+            "th-guide-01"
+          ],
+          "abstained": false
+        },
+        {
+          "caseId": "pet-rate",
+          "text": "ข้อมูลไม่เพียงพอ",
+          "citations": [],
+          "abstained": true
+        }
+      ]
+    }
+  ]
+}

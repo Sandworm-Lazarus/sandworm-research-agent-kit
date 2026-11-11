@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.egg-info/
+.env*
+output/
+runtime/
+node_modules/
+.tools/
+.runtime/
+.cache/
+*.pyc
+*.key
+out/
+.env
+.env.*

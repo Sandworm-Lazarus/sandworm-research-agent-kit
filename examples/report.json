@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-research-agent-kit",
+  "mode": "fixture",
+  "generated_at": "2026-11-11T11:53:44.282074+00:00",
+  "input_sha256": "164f4ca15e35f80e8235a8b8b0a0444ab9f2add75c162cb7ed08e93069f2a4cb",
+  "summary": {
+    "questions": 2,
+    "supported": 1,
+    "unknown": 1,
+    "requests": 1
+  },
+  "plan": {
+    "stages": [
+      "plan",
+      "extract",
+      "review"
+    ],
+    "requests": 1,
+    "questions": [
+      {
+        "id": "guild-cost",
+        "source_ids": [
+          "th-guide-01"
+        ]
+      },
+      {
+        "id": "pet-rate",
+        "source_ids": [
+          "jp-guide-01"
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "question_id": "guild-cost",
+      "claim": "การสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ",
+      "unknown": false,
+      "confidence": "source_text_match",
+      "source_id": "th-guide-01",
+      "source_url": "https://example.invalid/synthetic/th-guide",
+      "region": "TH-synthetic",
+      "version": "fixture-v1",
+      "excerpt": "การสร้างกิลด์ในชุดทดสอบใช้เหรียญ 100 เหรียญ"
+    },
+    {
+      "question_id": "pet-rate",
+      "claim": "NR",
+      "unknown": true,
+      "confidence": "unknown",
+      "source_id": null,
+      "source_url": null,
+      "region": "NR",
+      "version": "NR",
+      "excerpt": null
+    }
+  ],
+  "budget": {
+    "reserved_usd_at_user_rates": "0.053248"
+  },
+  "usage": {
+    "requests": 1,
+    "input_tokens": 117,
+    "output_tokens": 30,
+    "latency_ms": 15,
+    "token_measurement": "synthetic_estimate"
+  },
+  "limits": [
+    "Extractive source matching only; source truth and question relevance require human review.",
+    "Input source URLs are not fetched or verified.",
+    "Exported study/source identifiers and excerpts require review before sharing."
+  ],
+  "engine": {
+    "pydantic_ai_slim": "2.67.0",
+    "kit": "0.1.0"
+  }
+}

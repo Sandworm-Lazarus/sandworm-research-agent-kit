@@ -1,0 +1,8 @@
+{
+  "max_input_tokens": 32768,
+  "max_output_tokens": 4096,
+  "max_cost_usd": "0.10",
+  "input_usd_per_million": "1.00",
+  "output_usd_per_million": "5.00",
+  "timeout_seconds": 30
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "thai-game-synthetic-v1",
+  "cases": [
+    {
+      "id": "guild-cost",
+      "weight": 1,
+      "assertions": {
+        "citations": [
+          "th-guide-01"
+        ]
+      }
+    },
+    {
+      "id": "pet-rate",
+      "weight": 1,
+      "assertions": {
+        "exact": "ข้อมูลไม่เพียงพอ",
+        "abstain": true
+      }
+    }
+  ]
+}
